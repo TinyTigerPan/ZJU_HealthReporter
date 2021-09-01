@@ -1,6 +1,7 @@
 # ZJU_HealthReporter
 
 ## 简介
+浙江大学健康打卡助手  
 本项目修改自 https://github.com/lgaheilongzi/ZJU-Clock-In 实现了自动打卡  
 没有使用Github Action，自行增加了邮件提醒，并可多人打卡，但需要明文储存账号密码和部署  
 __修改打卡逻辑为自动复制前一天的数据，所以请确保前一天打卡数据正常__  
@@ -19,3 +20,5 @@ Linux可以编写sh脚本使用Crontab定时任务
 __打卡逻辑为自动复制前一天的数据，所以请确保前一天打卡数据正常__  
 __本项目仅为方便，防止出现忘记打卡的情况，请如实申报，若有打卡信息变动，请关闭自动打卡__  
 __本项目需要自行部署，如果不想自己部署，可以使用[ZJU-Clock-In](https://github.com/lgaheilongzi/ZJU-Clock-In)项目，利用Action打卡__  
+
+## 有问题可以提issue或联系我zhouxianpan@vip.qq.com
