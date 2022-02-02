@@ -226,8 +226,9 @@ def main(username, password, useremail):
 
 if __name__ == "__main__":
     user_list = [('user1', 'passwd', 'receiver@email.com'), ('user2', 'passwd', 'receiver@email.com')]
-    try:
-        for user in user_list:
+    
+    for user in user_list:
+        try:
             main(user[0], user[1], user[2])
-    except Exception:
-        exit(1)
+        except Exception:
+            pass
